@@ -1,0 +1,26 @@
+/* 全局字体大小控制 */
+
+:root {
+  --font-scale: 1; /* 默认标准模式，通过JS动态设置 */
+}
+
+/* 标准模式：正常字体大小 */
+html.mode-standard {
+  font-size: 16px !important;
+}
+
+/* 长辈模式：zoom属性由JavaScript动态设置，这里只做样式准备 */
+html.mode-elder {
+  /* zoom属性由JavaScript直接设置，更可靠 */
+}
+
+/* 确保body正常显示 */
+body {
+  min-height: 100vh;
+}
+
+/* 确保页面容器正常显示 */
+#root {
+  min-height: 100vh;
+}
+

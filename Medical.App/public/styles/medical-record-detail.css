@@ -1,0 +1,296 @@
+/* 病历详情页面样式 */
+
+.consultation-header {
+    background-color: #00DDBA;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.back-btn {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.back-icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.header-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.contact-service {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding-right: 0;
+}
+
+.contact-service:hover {
+    text-decoration: underline;
+}
+
+.warning-banner {
+    background-color: #fff3e0;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #ffe0b2;
+}
+
+.warning-icon {
+    color: #ff9800;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.warning-text {
+    font-size: 13px;
+    color: #e65100;
+    line-height: 1.5;
+    flex: 1;
+}
+
+.content-area {
+    padding: 20px 15px;
+    background-color: #fff;
+    min-height: calc(100vh - 200px);
+    padding-bottom: 100px;
+}
+
+.info-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.section-bar {
+    width: 4px;
+    background-color: #00DDBA;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.section-content {
+    flex: 1;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #00DDBA;
+    margin: 0 0 10px 0;
+}
+
+.section-value {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.section-value-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.subsection-content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.fill-link {
+    color: #00DDBA;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.fill-link:hover {
+    color: #00c9a8;
+}
+
+.subsection {
+    margin-top: 15px;
+}
+
+.subsection-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin: 0 0 8px 0;
+}
+
+.subsection-content {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.loading,
+.empty {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+    font-size: 14px;
+}
+
+.action-buttons {
+    position: fixed;
+    bottom: 70px; /* 提高到底部导航上方 */
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    z-index: 1001;
+}
+
+.btn-supplement {
+    flex: 1;
+    background-color: #fff;
+    color: #00DDBA;
+    border: 1px solid #00DDBA;
+    border-radius: 8px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-supplement:hover {
+    background-color: #f0fffe;
+}
+
+.btn-use {
+    flex: 1;
+    background-color: #00DDBA;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-use:hover {
+    background-color: #00c9a8;
+}
+
+.btn-use:active {
+    background-color: #00b89a;
+}
+
+/* 编辑输入框样式 */
+.edit-input-group {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.edit-input,
+.edit-textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.edit-input:focus,
+.edit-textarea:focus {
+    outline: none;
+    border-color: #00DDBA;
+}
+
+.edit-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.fill-link:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* 保存和取消按钮 */
+.btn-save {
+    flex: 1;
+    background-color: #00DDBA;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-save:hover:not(:disabled) {
+    background-color: #00c9a8;
+}
+
+.btn-save:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn-cancel {
+    flex: 1;
+    background-color: #fff;
+    color: #666;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-cancel:hover:not(:disabled) {
+    background-color: #f5f5f5;
+    border-color: #ccc;
+}
+
+.btn-cancel:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+

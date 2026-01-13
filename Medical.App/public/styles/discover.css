@@ -1,0 +1,331 @@
+/* 健康科普页面样式 */
+
+/* 页面标题 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00DDBA;
+    margin: 0;
+}
+
+/* 标签页导航 */
+.tabs-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 15px;
+    gap: 75px;
+    position: relative;
+}
+
+.tab-item {
+    padding: 15px 0;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.tab-item.active {
+    color: #00DDBA;
+    font-weight: bold;
+}
+
+.tab-item.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #00DDBA;
+}
+
+.subscription-manage-link {
+    position: absolute;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.manage-icon {
+    display: block;
+}
+
+/* 文章容器 */
+.articles-container {
+    background-color: #fff;
+    min-height: calc(100vh - 200px);
+    padding-bottom: 100px;
+}
+
+/* 文章卡片 */
+.article-post {
+    display: block;
+    padding: 20px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s;
+}
+
+.article-post:hover {
+    background-color: #f9f9f9;
+}
+
+.article-post:last-child {
+    border-bottom: none;
+}
+
+.article-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-link * {
+    text-decoration: none;
+}
+
+/* 文章头部（医生信息） */
+.post-header {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.doctor-avatar {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.doctor-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.doctor-name-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.doctor-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.doctor-title {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+.doctor-hospital {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+.post-meta {
+    font-size: 12px;
+    color: #999;
+}
+
+/* 文章内容 */
+.post-content {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.post-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post-excerpt {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post-thumbnail {
+    width: 120px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.thumbnail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 文章操作 */
+.post-actions {
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 1px solid #f5f5f5;
+}
+
+.action-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+}
+
+.action-icon {
+    font-size: 16px;
+}
+
+.action-text {
+    font-size: 14px;
+}
+
+/* 加载和错误状态 */
+.loading,
+.error-tip,
+.empty {
+    padding: 40px 20px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+.error-tip {
+    color: #ff4d4f;
+}
+
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.empty-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.empty-state .empty-text {
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.empty-state .subscribe-btn {
+    padding: 12px 30px;
+    background-color: #00DDBA;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.empty-state .subscribe-btn:hover {
+    background-color: #00c9a8;
+}
+
+/* 浮动添加按钮（FAB） */
+.fab-button {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 56px;
+    height: 56px;
+    background-color: #00DDBA;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 221, 186, 0.4);
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 1000;
+    transition: all 0.3s;
+}
+
+.fab-button:hover {
+    background-color: #00c9a8;
+    box-shadow: 0 6px 16px rgba(0, 221, 186, 0.5);
+    transform: scale(1.05);
+}
+
+.fab-button:active {
+    transform: scale(0.95);
+}
+
+.fab-icon {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,561 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Medical\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\medical.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\medical.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\consultationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\consultationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\consultationpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\consultationpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\controllers\\consultationmessagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\controllers\\consultationmessagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\patientsupportgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\patientsupportgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\province.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\province.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\controllers\\consultationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\controllers\\consultationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\questionpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\questionpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\postlike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\postlike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\postcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\postcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\druginventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\druginventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\controllers\\iplocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\controllers\\iplocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\controllers\\patientsupportgroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\controllers\\patientsupportgroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\controllers\\aidiagnosiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\controllers\\aidiagnosiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\diseasecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\diseasecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\tertiaryhospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\tertiaryhospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|e:\\medical\\medical.api\\controllers\\provincescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575095FF-4917-8690-2CAA-195A74269377}|Medical.API\\Medical.API.csproj|solutionrelative:medical.api\\controllers\\provincescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Medical.API.http",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Medical.API.http",
+              "RelativeDocumentMoniker": "Medical.API\\Medical.API.http",
+              "ToolTip": "E:\\Medical\\Medical.API\\Medical.API.http",
+              "RelativeToolTip": "Medical.API\\Medical.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-07T17:34:32.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FolderProfile.pubxml",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeDocumentMoniker": "Medical.API\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ToolTip": "E:\\Medical\\Medical.API\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeToolTip": "Medical.API\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-01-07T16:55:53.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Medical.API\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Medical\\Medical.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Medical.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-07T16:55:41.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Program.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Program.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Program.cs",
+              "RelativeToolTip": "Medical.API\\Program.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAhwFwBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:06:03.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Medical.API\\appsettings.json",
+              "ToolTip": "E:\\Medical\\Medical.API\\appsettings.json",
+              "RelativeToolTip": "Medical.API\\appsettings.json",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-07T14:49:26.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Medical.API\\appsettings.Development.json",
+              "ToolTip": "E:\\Medical\\Medical.API\\appsettings.Development.json",
+              "RelativeToolTip": "Medical.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-07T14:49:23.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "package.json",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\package.json",
+              "RelativeDocumentMoniker": "Medical.API\\package.json",
+              "ToolTip": "E:\\Medical\\Medical.API\\package.json",
+              "RelativeToolTip": "Medical.API\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-07T14:49:18.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConsultationsController.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Controllers\\ConsultationsController.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Controllers\\ConsultationsController.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Controllers\\ConsultationsController.cs",
+              "RelativeToolTip": "Medical.API\\Controllers\\ConsultationsController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAswFgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T17:17:05.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConsultationMessagesController.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Controllers\\ConsultationMessagesController.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Controllers\\ConsultationMessagesController.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Controllers\\ConsultationMessagesController.cs",
+              "RelativeToolTip": "Medical.API\\Controllers\\ConsultationMessagesController.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAswO4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T17:01:06.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsultationMessage.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\ConsultationMessage.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\ConsultationMessage.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\ConsultationMessage.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\ConsultationMessage.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwB4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:22:03.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConsultationPatient.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\ConsultationPatient.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\ConsultationPatient.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\ConsultationPatient.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\ConsultationPatient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:22:00.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Consultation.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\Consultation.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\Consultation.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\Consultation.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\Consultation.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:14:15.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "QuestionPatient.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\QuestionPatient.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\QuestionPatient.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\QuestionPatient.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\QuestionPatient.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:11:03.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Question.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\Question.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\Question.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\Question.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\Question.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAA7wCQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:09:49.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\Prescription.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\Prescription.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\Prescription.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\Prescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T14:55:43.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PostLike.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\PostLike.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\PostLike.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\PostLike.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\PostLike.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T14:55:09.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PostComment.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\PostComment.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\PostComment.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\PostComment.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\PostComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T12:55:52.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Post.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\Post.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\Post.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\Post.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAywB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T12:44:58.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PatientSupportGroup.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\PatientSupportGroup.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\PatientSupportGroup.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\PatientSupportGroup.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\PatientSupportGroup.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T12:44:51.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DrugInventory.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\DrugInventory.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\DrugInventory.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\DrugInventory.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\DrugInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T12:44:47.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IpLocationController.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Controllers\\IpLocationController.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Controllers\\IpLocationController.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Controllers\\IpLocationController.cs",
+              "RelativeToolTip": "Medical.API\\Controllers\\IpLocationController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAywCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T17:41:16.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PatientSupportGroupsController.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Controllers\\PatientSupportGroupsController.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Controllers\\PatientSupportGroupsController.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Controllers\\PatientSupportGroupsController.cs",
+              "RelativeToolTip": "Medical.API\\Controllers\\PatientSupportGroupsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAywCwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T16:06:05.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Medical.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T13:47:06.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AiDiagnosisController.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Controllers\\AiDiagnosisController.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Controllers\\AiDiagnosisController.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Controllers\\AiDiagnosisController.cs",
+              "RelativeToolTip": "Medical.API\\Controllers\\AiDiagnosisController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAWwFcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T09:46:10.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\Department.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\Department.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T14:26:18.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProvincesController.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Controllers\\ProvincesController.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Controllers\\ProvincesController.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Controllers\\ProvincesController.cs",
+              "RelativeToolTip": "Medical.API\\Controllers\\ProvincesController.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAA3wJcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T10:31:13.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\Doctor.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\Doctor.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T09:42:47.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\README.md",
+              "RelativeDocumentMoniker": "Medical.API\\README.md",
+              "ToolTip": "E:\\Medical\\Medical.API\\README.md",
+              "RelativeToolTip": "Medical.API\\README.md",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAANEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-13T05:16:12.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Province.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\Province.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\Province.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\Province.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\Province.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T05:05:05.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "City.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\City.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\City.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\City.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA0wAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T05:04:47.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TertiaryHospital.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\TertiaryHospital.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\TertiaryHospital.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\TertiaryHospital.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\TertiaryHospital.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAiwEQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T05:03:08.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\User.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:45:19.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DiseaseCategory.cs",
+              "DocumentMoniker": "E:\\Medical\\Medical.API\\Models\\Entities\\DiseaseCategory.cs",
+              "RelativeDocumentMoniker": "Medical.API\\Models\\Entities\\DiseaseCategory.cs",
+              "ToolTip": "E:\\Medical\\Medical.API\\Models\\Entities\\DiseaseCategory.cs",
+              "RelativeToolTip": "Medical.API\\Models\\Entities\\DiseaseCategory.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAD4vxEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T14:18:18.387Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

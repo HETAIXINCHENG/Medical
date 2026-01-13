@@ -1,0 +1,253 @@
+/* 订单详情页面样式（统一青绿色） */
+
+:root {
+  --teal: #00DDBA;
+  --teal-dark: #00b89a;
+  --text-main: #333;
+  --text-sub: #666;
+  --bg-light: #f7f9fb;
+  --border: #e5e6eb;
+}
+
+.order-detail-page {
+  min-height: 100vh;
+  background: var(--bg-light);
+  padding-bottom: 20px;
+}
+
+.order-detail-header {
+  background-color: var(--teal);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 221, 186, 0.2);
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back-icon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.order-status-section {
+  background-color: #fff;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+}
+
+.status-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.status-desc {
+  font-size: 14px;
+  color: var(--text-sub);
+}
+
+.recipient-section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.recipient-name-phone {
+  font-size: 15px;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.recipient-address {
+  font-size: 14px;
+  color: var(--text-sub);
+}
+
+.prescription-section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-main);
+}
+
+.view-link {
+  background: none;
+  border: none;
+  color: var(--teal);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.store-section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.store-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.store-rating {
+  font-size: 14px;
+  color: #ff9800;
+  cursor: pointer;
+}
+
+.items-section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.item-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.item-card:last-child {
+  border-bottom: none;
+}
+
+.item-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.item-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.item-name {
+  font-size: 15px;
+  color: var(--text-main);
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.item-spec {
+  font-size: 13px;
+  color: var(--text-sub);
+  margin-bottom: 2px;
+}
+
+.item-manufacturer {
+  font-size: 12px;
+  color: var(--text-sub);
+}
+
+.item-price-qty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.item-price {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--text-main);
+}
+
+.item-qty {
+  font-size: 13px;
+  color: var(--text-sub);
+}
+
+.transaction-section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.transaction-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.transaction-label {
+  font-size: 14px;
+  color: var(--text-sub);
+}
+
+.transaction-value {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--text-main);
+}
+
+.complain-float-btn {
+  position: fixed;
+  right: 15px;
+  bottom: 200px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--teal);
+  color: white;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 221, 186, 0.3);
+  z-index: 999;
+  transition: transform 0.2s;
+}
+
+.complain-float-btn:hover {
+  transform: scale(1.05);
+}
+
+.complain-float-btn:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,161 @@
+/* 系统通知设置页面样式 */
+
+.system-notification-header {
+  background-color: #00DDBA;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back-arrow {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.system-notification-content {
+  padding: 30px 15px 100px 15px;
+  background-color: #fafafa;
+  min-height: calc(100vh - 60px);
+}
+
+/* 应用信息 */
+.app-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.app-icon {
+  margin-bottom: 15px;
+}
+
+.icon-background {
+  width: 80px;
+  height: 80px;
+  background-color: #00DDBA;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-thumb {
+  font-size: 50px;
+  position: relative;
+}
+
+.app-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* 通知卡片 */
+.notification-card {
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.card-label {
+  font-size: 16px;
+  color: #333;
+  flex: 1;
+}
+
+.card-label.disabled {
+  color: #999;
+}
+
+.item-arrow {
+  font-size: 20px;
+  color: #999;
+}
+
+/* 提示文本 */
+.hint-text {
+  padding: 15px;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* 类别标签 */
+.category-label {
+  font-size: 14px;
+  color: #999;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+}
+
+/* 开关样式 */
+.toggle-switch {
+  width: 50px;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex-shrink: 0;
+}
+
+.toggle-switch:hover {
+  background-color: #ccc;
+}
+
+.toggle-slider {
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-slider.enabled {
+  transform: translateX(20px);
+}
+
+/* 当开关启用时，改变背景色 */
+.toggle-switch.enabled {
+  background-color: #00DDBA;
+}
+

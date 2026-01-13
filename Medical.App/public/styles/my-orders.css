@@ -1,0 +1,290 @@
+/* 我的订单页面样式（统一青绿色） */
+
+:root {
+    --teal: #00DDBA;
+    --teal-dark: #00b89a;
+    --header-blue: #00DDBA;
+    --text-main: #333;
+    --text-sub: #666;
+    --bg-light: #f7f9fb;
+    --border: #e5e6eb;
+}
+
+.my-orders-page {
+    min-height: calc(100vh - 120px);
+    background: var(--bg-light);
+    padding: 12px;
+}
+
+.orders-header {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--header-blue);
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-bottom: 12px;
+    color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 221, 186, 0.2);
+}
+
+.header-btn {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+.header-btn img {
+    width: 18px;
+    height: 18px;
+}
+
+.header-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-link {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.orders-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 12px;
+}
+
+.orders-tab-btn {
+    height: 42px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: #f4f7f8;
+    color: var(--text-sub);
+    font-size: 14px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.orders-tab-btn.active {
+    background: var(--teal);
+    color: #fff;
+    border-color: var(--teal);
+    box-shadow: 0 6px 12px rgba(0, 221, 186, 0.25);
+}
+
+.orders-tab-btn:not(.active):hover {
+    border-color: var(--teal);
+    color: var(--teal);
+}
+
+.orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.order-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 14px 14px 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    border: 1px solid #f1f2f6;
+}
+
+.order-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.order-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+.order-status {
+    font-size: 13px;
+    color: var(--teal);
+    font-weight: 600;
+}
+
+.order-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6px;
+}
+
+.order-row {
+    display: flex;
+    font-size: 13px;
+    color: var(--text-sub);
+}
+
+.order-row .label {
+    width: 72px;
+    color: #8a8a8a;
+}
+
+.order-row .value {
+    flex: 1;
+    color: var(--text-main);
+}
+
+.order-row .highlight {
+    color: #ff6b6b;
+    font-weight: 700;
+}
+
+.order-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.link-btn,
+.primary-btn {
+    height: 34px;
+    padding: 0 14px;
+    border-radius: 17px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background: #fff;
+    color: var(--teal);
+    border-color: var(--teal);
+    transition: all 0.2s ease;
+}
+
+.primary-btn {
+    background: var(--teal);
+    color: #fff;
+    border-color: var(--teal);
+    box-shadow: 0 4px 10px rgba(0, 221, 186, 0.25);
+}
+
+.link-btn:hover {
+    background: #f0fffc;
+}
+
+.primary-btn:hover {
+    background: var(--teal-dark);
+    border-color: var(--teal-dark);
+}
+
+.orders-empty {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.orders-empty .empty-icon {
+    width: 90px;
+    height: 90px;
+    background: #f4f7f8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #d6dbe1;
+}
+
+.orders-empty .empty-icon img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    opacity: 0.6;
+}
+
+.orders-empty .empty-text {
+    color: #999;
+}
+
+.delete-btn {
+    color: #ff6b6b !important;
+    border-color: #ff6b6b !important;
+}
+
+.delete-btn:hover {
+    background: #fff5f5 !important;
+}
+
+/* 删除确认对话框 */
+.delete-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.delete-modal {
+    background: #fff;
+    border-radius: 12px;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.delete-modal-title {
+    padding: 24px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-main);
+    border-bottom: 1px solid #f1f2f6;
+}
+
+.delete-modal-buttons {
+    display: flex;
+    height: 48px;
+}
+
+.delete-modal-cancel,
+.delete-modal-confirm {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: var(--teal);
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.delete-modal-cancel:hover,
+.delete-modal-confirm:hover {
+    background: #f7f9fb;
+}
+
+.delete-modal-divider {
+    width: 1px;
+    background: #f1f2f6;
+}
+

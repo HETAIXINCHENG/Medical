@@ -1,0 +1,114 @@
+/* 注销账号须知页面样式 */
+
+.cancel-notice-header {
+  background-color: #00DDBA;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.cancel-notice-header .back-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.cancel-notice-header .back-arrow {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.cancel-notice-header .header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+  padding-right: 35px;
+}
+
+.cancel-notice-content {
+  padding: 20px 20px 100px 20px;
+  background-color: #fff;
+  min-height: calc(100vh - 60px);
+  line-height: 1.8;
+  overflow-y: auto;
+}
+
+.important-warning {
+  background-color: #fff2f0;
+  border-left: 4px solid #ff4444;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+}
+
+.warning-label {
+  font-weight: bold;
+  color: #ff4444;
+  margin-right: 5px;
+}
+
+.warning-text {
+  color: #ff4444;
+  font-size: 15px;
+}
+
+.notice-list {
+  margin-bottom: 25px;
+}
+
+.notice-item {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-start;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.notice-number {
+  font-weight: bold;
+  color: #333;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.notice-text {
+  color: #333;
+  font-size: 15px;
+  flex: 1;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.special-notice {
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.special-label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.special-text {
+  color: #333;
+  font-size: 15px;
+  line-height: 1.8;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+

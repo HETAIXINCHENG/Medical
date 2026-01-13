@@ -1,0 +1,1579 @@
+/* 首页样式文件 */
+
+
+
+/* 全局样式重置 */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+    background-color: #fafafa;
+
+    color: #333;
+
+    padding-bottom: 70px; /* 为底部导航栏留出空间 */
+
+}
+
+
+
+/* 搜索栏区�?*/
+
+.search-section {
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 10px 15px;
+
+    background-color: #fff;
+
+}
+
+
+
+.search-bar {
+
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+
+    background-color: #fff;
+
+    border-radius: 25px;
+
+    padding: 0;
+
+    gap: 0;
+
+    border: 1px solid #e0e0e0;
+
+    overflow: hidden;
+
+}
+
+
+
+.search-icon {
+
+    width: 16px;
+
+    height: 16px;
+
+    object-fit: contain;
+
+    margin-left: 15px;
+
+    flex-shrink: 0;
+
+}
+
+
+
+.search-bar input {
+
+    flex: 1;
+
+    border: none;
+
+    background: transparent;
+
+    outline: none;
+
+    font-size: 14px;
+
+    padding: 12px 15px;
+
+    color: #333;
+
+}
+
+.search-bar input::placeholder {
+
+    color: #999;
+
+}
+
+
+
+.search-divider {
+
+    width: 1px;
+
+    height: 20px;
+
+    background-color: #e0e0e0;
+
+    flex-shrink: 0;
+
+}
+
+
+
+.search-btn {
+
+    background-color: #00DDBA;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    flex-shrink: 0;
+
+    transition: background-color 0.3s;
+
+}
+
+.search-btn:hover {
+
+    background-color: #00B89A;
+
+}
+
+
+
+.more-icon {
+
+    width: 20px;
+
+    height: 20px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* 快速访问按�?*/
+
+.quick-access {
+
+    display: flex;
+
+    gap: 10px;
+
+    padding: 15px;
+
+}
+
+
+
+.quick-btn {
+
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+
+    background-color: #fff;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    gap: 10px;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    text-decoration: none;
+
+    color: inherit;
+
+    cursor: pointer;
+
+    transition: opacity 0.3s;
+
+}
+
+
+
+.quick-btn:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+.icon-box {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+.icon-box img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+}
+
+
+
+.icon-box.teal {
+
+    background-color: #00DDBA;
+
+}
+
+
+
+.icon-box.orange {
+
+    background-color: #FF9800;
+
+}
+
+
+
+.btn-content {
+
+    flex: 1;
+
+}
+
+
+
+.btn-title {
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+.btn-subtitle {
+
+    font-size: 12px;
+
+    color: #999;
+
+}
+
+
+
+/* 搜索卡片样式 */
+.search-section-card {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 0;
+    overflow: hidden;
+    align-items: stretch;
+}
+
+.search-left-panel {
+    width: 130px;
+    padding: 12px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    min-height: 100px;
+}
+
+.search-left-panel.blue {
+    background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.search-left-panel.orange {
+    background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.search-left-panel.teal {
+    background: linear-gradient(135deg, #00DDBA 0%, #00B89A 100%);
+    border-radius: 5px 5px 5px 5px;
+    justify-content: center;
+}
+
+.search-left-panel.blue:first-child {
+    border-top-left-radius: 8px;
+}
+
+.search-left-panel.teal:last-of-type {
+    border-bottom-left-radius: 8px;
+}
+
+.search-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.search-desc {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+
+/* 绿色卡片独立样式 - 字体上下间距更大 */
+.search-title-teal {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+.search-desc-teal {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.9;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.search-btn-panel {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+    width: auto;
+    margin: 0 auto;
+}
+
+.search-btn-panel:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.search-right-panel {
+    flex: 1;
+    padding: 2px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.search-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.search-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+    gap: 5px;
+}
+
+.search-item:hover {
+    background-color: #fafafa;
+}
+
+.search-item-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.search-item-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.search-item-text {
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.search-item-subtext {
+    font-size: 10px;
+    color: #999;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.search-item.disease {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 8px 12px;
+    min-height: 36px;
+    justify-content: center;
+}
+
+.search-item.disease:hover {
+    background-color: #f0f0f0;
+}
+
+.search-item.hospital {
+    align-items: center;
+    justify-content: center;
+}
+
+.search-item.more {
+    color: #00DDBA;
+    font-weight: bold;
+    justify-content: center;
+}
+
+/* 问诊卡片样式（保留以兼容） */
+.consultation-cards {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.consultation-card {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 1px solid #f0f0f0;
+}
+
+.consultation-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+}
+
+.consultation-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #FF5722;
+    color: white;
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.consultation-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.consultation-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #E3F2FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.consultation-icon img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.consultation-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.consultation-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.consultation-subtitle {
+    font-size: 12px;
+    color: #999;
+}
+
+/* 保留旧的分类图标样式以兼容 */
+.category-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.category-item:hover {
+    opacity: 0.8;
+}
+
+.category-icon {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-color: #FF5722;
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-circle img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.category-label {
+    font-size: 12px;
+    color: #666;
+}
+
+
+
+/* 通用区块样式 */
+
+.section {
+
+    background-color: #fff;
+
+    padding: 15px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.section-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 15px;
+
+}
+
+.section-title-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+
+}
+
+.section-title {
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    color: #8B4513;
+
+}
+
+.section-subtitle {
+
+    font-size: 12px;
+
+    color: #999;
+
+}
+
+
+
+.view-all {
+
+    font-size: 14px;
+
+    color: #999;
+
+    text-decoration: none !important;
+
+}
+
+.view-all:hover,
+
+.view-all:visited,
+
+.view-all:active,
+
+.view-all:focus {
+
+    text-decoration: none !important;
+
+}
+
+
+
+/* 热门活动 */
+
+.activity-grid {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+
+
+.activity-card.large {
+
+    flex: 1;
+
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    color: white;
+
+    position: relative;
+
+    overflow: hidden;
+
+    text-decoration: none;
+
+    display: block;
+
+    transition: opacity 0.3s;
+
+}
+
+
+
+.activity-card.large:hover {
+
+    opacity: 0.9;
+
+}
+
+
+
+.activity-card.small {
+
+    flex: 1;
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    transition: opacity 0.3s;
+
+}
+
+
+
+.activity-card.small:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+.activity-card.small.blue {
+
+    background-color: #D6FFF6;
+
+}
+
+
+
+.activity-card.small.yellow {
+
+    background-color: #FFF9C4;
+
+}
+
+
+
+.activity-cards-small {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    flex: 1;
+
+}
+
+
+
+.card-image {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.doctor-avatar {
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+
+    background-color: rgba(255,255,255,0.3);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+.activity-image {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+}
+
+
+
+.go-btn-img {
+
+    width: 60px;
+
+    height: 30px;
+
+    object-fit: contain;
+
+    cursor: pointer;
+
+}
+
+
+
+.card-content {
+
+    flex: 1;
+
+}
+
+
+
+.card-title {
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+}
+
+
+
+.tag.discount {
+
+    background-color: #FF5722;
+
+    color: white;
+
+    font-size: 10px;
+
+    padding: 2px 6px;
+
+    border-radius: 10px;
+
+}
+
+
+
+.card-subtitle {
+
+    font-size: 12px;
+
+    opacity: 0.9;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.go-btn {
+
+    background-color: rgba(255,255,255,0.3);
+
+    border: none;
+
+    color: white;
+
+    padding: 5px 15px;
+
+    border-radius: 15px;
+
+    font-size: 12px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* 医疗服务 */
+
+.service-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 15px;
+
+}
+
+
+
+.service-item {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 20px;
+
+    background-color: #f9f9f9;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    cursor: pointer;
+
+    transition: opacity 0.3s;
+
+}
+
+
+
+.service-item:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+.service-icon {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+.service-icon img {
+
+    width: 70%;
+
+    height: 70%;
+
+    object-fit: contain;
+
+}
+
+
+
+.service-title {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+
+.service-subtitle {
+
+    font-size: 12px;
+
+    color: #999;
+
+    text-align: center;
+
+}
+
+
+
+/* 底部导航�?*/
+
+.bottom-nav {
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    background-color: #fff;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    padding: 10px 0;
+
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+
+    z-index: 1000;
+
+}
+
+
+
+.nav-item {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 5px;
+
+    font-size: 12px;
+
+    color: #999;
+
+    cursor: pointer;
+
+    flex: 1;
+
+    text-decoration: none;
+
+}
+
+
+
+.nav-item.active {
+
+    color: #00DDBA;
+
+}
+
+
+
+.nav-item:hover {
+
+    color: #00DDBA;
+
+}
+
+
+
+.nav-icon {
+
+    width: 24px;
+
+    height: 24px;
+
+    object-fit: contain;
+
+    display: block;
+
+    flex-shrink: 0;
+
+}
+
+
+
+.nav-center {
+
+    position: relative;
+
+    flex: 0 0 auto;
+
+}
+
+
+
+.nav-item.nav-center {
+
+    flex: 0 0 auto;
+
+}
+
+
+
+.nav-icon.plus {
+
+    width: 50px;
+
+    height: 50px;
+
+    object-fit: contain;
+
+    margin-top: -20px;
+
+    display: block;
+
+    background-color: transparent;
+
+}
+
+/* 推荐医生卡片 - 横向排列 */
+.doctor-cards {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    overflow-x: auto;
+}
+
+.doctor-cards::-webkit-scrollbar {
+    display: none;
+}
+
+.doctor-card {
+    flex: 0 0 auto;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none !important;
+    color: inherit;
+    transition: opacity 0.3s;
+}
+
+.doctor-card:hover,
+.doctor-card:visited,
+.doctor-card:active,
+.doctor-card:focus {
+    text-decoration: none !important;
+}
+
+.doctor-card * {
+    text-decoration: none !important;
+}
+
+.doctor-card:hover {
+    opacity: 0.8;
+}
+
+.doctor-card .doctor-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-card .doctor-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.doctor-card .doctor-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.doctor-card .doctor-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.doctor-card .doctor-tag {
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+
+.doctor-card .doctor-department {
+    font-size: 11px;
+    color: #999;
+}
+
+.doctor-card .doctor-specialty {
+    font-size: 11px;
+    color: #999;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.empty {
+    text-align: center;
+    color: #999;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* 健康知识列表 */
+.knowledge-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.knowledge-card {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s;
+}
+
+.knowledge-card:hover {
+    background-color: #f0f0f0;
+}
+
+.knowledge-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.knowledge-summary {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.knowledge-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #999;
+}
+
+/* 问诊养生馆 - 产品卡片 */
+.product-cards {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.product-cards::-webkit-scrollbar {
+    display: none;
+}
+
+.product-card {
+    flex: 0 0 auto;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none !important;
+    color: inherit;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-2px);
+}
+
+.product-card:hover,
+.product-card:visited,
+.product-card:active,
+.product-card:focus {
+    text-decoration: none !important;
+}
+
+.product-image {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.product-image-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #D6FFF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 11px;
+    padding: 6px 8px;
+    text-align: center;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.product-name {
+    font-size: 12px;
+    color: #333;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.product-sales {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+}
+
+.hot-sale {
+    background-color: #FF5722;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.sales-count {
+    color: #999;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FF5722;
+}
+
+/* 可能感兴趣 - 文章列表 */
+.article-list {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.article-post {
+    display: block;
+    padding: 20px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s;
+}
+
+.article-post:hover {
+    background-color: #f9f9f9;
+}
+
+.article-post:last-child {
+    border-bottom: none;
+}
+
+.article-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-link * {
+    text-decoration: none;
+}
+
+/* 文章头部（医生信息） */
+.post-header {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.doctor-avatar {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.doctor-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.doctor-name-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.doctor-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.doctor-title {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+.doctor-hospital {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+.post-meta {
+    font-size: 12px;
+    color: #999;
+}
+
+/* 文章内容 */
+.post-content {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.post-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post-excerpt {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post-thumbnail {
+    width: 120px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.thumbnail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 文章操作 */
+.post-actions {
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 1px solid #f5f5f5;
+}
+
+.action-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+}
+
+.action-icon {
+    font-size: 16px;
+}
+
+.action-text {
+    font-size: 14px;
+}
+
+
+
+

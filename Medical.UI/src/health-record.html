@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>健康记录 - 医疗咨询系统</title>
+    <link rel="stylesheet" href="../css/health-record.css">
+    <link rel="stylesheet" href="../css/bottom-nav.css">
+</head>
+<body>
+    <!-- 状态栏 -->
+    <div class="status-bar">
+        <span class="time">8:59</span>
+    </div>
+
+    <!-- 导航栏 -->
+    <div class="navbar">
+        <a href="profile.html" class="back-arrow-link">
+            <img src="../Img/09-健康记录/返回.png" alt="返回" class="back-arrow">
+        </a>
+        <h1 class="page-title">健康记录</h1>
+    </div>
+
+    <!-- 用户/应用信息卡片 -->
+    <div class="info-card">
+        <div class="app-info">
+            <div class="app-logo">R</div>
+            <div class="app-details">
+                <div class="app-name">灵感设计</div>
+                <div class="test-time">3天前测试</div>
+            </div>
+        </div>
+        <div class="health-index">
+            <span class="index-label">健康指数:</span>
+            <span class="index-score">80分</span>
+        </div>
+    </div>
+
+    <!-- 测试报告 -->
+    <div class="section">
+        <div class="section-header">
+            <h2 class="section-title">测试报告</h2>
+            <a href="health-record.html" class="view-all">历史报告 ></a>
+        </div>
+        <div class="report-grid">
+            <div class="report-item">
+                <div class="report-label">运动频率:</div>
+                <div class="report-value">4次/周</div>
+            </div>
+            <div class="report-item">
+                <div class="report-label">三餐规律:</div>
+                <div class="report-value">5天/周</div>
+            </div>
+            <div class="report-item">
+                <div class="report-label">血压测量:</div>
+                <div class="report-value">正常 5次/周</div>
+            </div>
+            <div class="report-item">
+                <div class="report-label">血糖测量:</div>
+                <div class="report-value warning">偏低 2次/周</div>
+            </div>
+            <div class="report-item">
+                <div class="report-label">体脂测量:</div>
+                <div class="report-value">正常 4次/周</div>
+            </div>
+            <div class="report-item">
+                <div class="report-label">心电测量:</div>
+                <div class="report-value">正常 7次/周</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 健康详情 -->
+    <div class="section">
+        <div class="section-header">
+            <h2 class="section-title">健康详情</h2>
+            <a href="health-record.html" class="view-all">查看全部></a>
+        </div>
+        <div class="health-details">
+            <!-- 运动 -->
+            <div class="detail-card">
+                <div class="detail-icon blue">
+                    <img src="../Img/09-健康记录/运动.png" alt="运动">
+                </div>
+                <div class="detail-content">
+                    <div class="detail-title">运动 (今天15:00开始运动)</div>
+                    <div class="detail-tags">
+                        <span class="tag">快走2小时</span>
+                        <span class="tag">1200卡路里</span>
+                    </div>
+                </div>
+                <button class="add-btn">添加</button>
+            </div>
+
+            <!-- 三餐 -->
+            <div class="detail-card">
+                <div class="detail-icon blue">
+                    <img src="../Img/09-健康记录/三餐.png" alt="三餐">
+                </div>
+                <div class="detail-content">
+                    <div class="detail-title">三餐 (定时提醒设置)</div>
+                    <div class="detail-tags">
+                        <span class="tag">三餐定时</span>
+                        <span class="tag">卡路里设置</span>
+                    </div>
+                </div>
+                <button class="add-btn">添加</button>
+            </div>
+
+            <!-- 血压 -->
+            <div class="detail-card">
+                <div class="detail-icon blue">
+                    <img src="../Img/09-健康记录/血压.png" alt="血压">
+                </div>
+                <div class="detail-content">
+                    <div class="detail-title">血压 (定时提醒设置)</div>
+                    <div class="detail-tags">
+                        <span class="tag">血压测试</span>
+                    </div>
+                </div>
+                <button class="add-btn">添加</button>
+            </div>
+
+            <!-- 心电 -->
+            <div class="detail-card">
+                <div class="detail-icon blue">
+                    <img src="../Img/09-健康记录/心电.png" alt="心电">
+                </div>
+                <div class="detail-content">
+                    <div class="detail-title">心电 (定时提醒设置)</div>
+                    <div class="detail-tags">
+                        <span class="tag">定时测试</span>
+                        <span class="tag">1200卡路里</span>
+                    </div>
+                </div>
+                <button class="add-btn">添加</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部导航栏 -->
+    <div class="bottom-nav-container" data-active="profile"></div>
+    <script src="../js/bottom-nav.js"></script>
+</body>
+</html>
+

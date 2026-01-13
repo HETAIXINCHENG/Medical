@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>咨询问诊 - 医疗咨询系统</title>
+    <link rel="stylesheet" href="../css/consultation.css">
+    <link rel="stylesheet" href="../css/bottom-nav.css">
+</head>
+<body>
+    <!-- 状态栏 -->
+    <div class="status-bar">
+        <span class="time">8:59</span>
+    </div>
+
+    <!-- 导航栏 -->
+    <div class="navbar">
+        <a href="doctor-detail.html" class="back-arrow-link">
+            <img src="../Img/10-咨询问诊/返回.png" alt="返回" class="back-arrow">
+        </a>
+        <h1 class="page-title">咨询问诊</h1>
+    </div>
+
+    <!-- 聊天区域 -->
+    <div class="chat-container">
+        <div class="chat-time">18:39</div>
+
+        <!-- 用户消息 -->
+        <div class="message user-message">
+            <div class="message-bubble user-bubble">您好</div>
+            <div class="message-avatar user-avatar">R</div>
+        </div>
+
+        <!-- 医生消息 -->
+        <div class="message doctor-message">
+            <img src="../Img/10-咨询问诊/1.png" alt="王医生" class="message-avatar doctor-avatar">
+            <div class="message-content">
+                <div class="doctor-info">
+                    <span class="doctor-name">王医生</span>
+                    <span class="doctor-title">(副主治医生)</span>
+                </div>
+                <div class="message-bubble doctor-bubble">请问有什么问题要咨询吗?</div>
+            </div>
+        </div>
+
+        <!-- 用户消息 -->
+        <div class="message user-message">
+            <div class="message-bubble user-bubble">昨晚开始宝宝发高烧,体温39度,还吃不进东西怎么也不退该怎么办?</div>
+            <div class="message-avatar user-avatar">R</div>
+        </div>
+
+        <!-- 医生消息 -->
+        <div class="message doctor-message">
+            <img src="../Img/10-咨询问诊/1.png" alt="王医生" class="message-avatar doctor-avatar">
+            <div class="message-content">
+                <div class="doctor-info">
+                    <span class="doctor-name">王医生</span>
+                    <span class="doctor-title">(副主治医生)</span>
+                </div>
+                <div class="message-bubble doctor-bubble">根据您的描述,初步断定宝宝是发高烧,请问是否考虑住院观察?</div>
+            </div>
+        </div>
+
+        <!-- 用户消息 -->
+        <div class="message user-message">
+            <div class="message-bubble user-bubble">好的,我考虑一下。</div>
+            <div class="message-avatar user-avatar">R</div>
+        </div>
+    </div>
+
+    <!-- 输入栏 -->
+    <div class="input-bar">
+        <input type="text" class="message-input" placeholder="请输入内容...">
+        <img src="../Img/10-咨询问诊/语音.png" alt="语音" class="input-icon">
+        <img src="../Img/10-咨询问诊/更多.png" alt="更多" class="input-icon">
+    </div>
+
+    <!-- 底部导航栏 -->
+    <div class="bottom-nav-container" data-active="information"></div>
+    <script src="../js/bottom-nav.js"></script>
+</body>
+</html>
+

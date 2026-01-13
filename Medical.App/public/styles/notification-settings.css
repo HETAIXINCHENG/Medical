@@ -1,0 +1,148 @@
+/* 消息通知设置页面样式 */
+
+.notification-header {
+  background-color: #00DDBA;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back-arrow {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.notification-content {
+  padding: 20px 15px 100px 15px;
+  background-color: #fafafa;
+  min-height: calc(100vh - 60px);
+}
+
+.notification-section {
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.section-title {
+  padding: 15px 15px 10px 15px;
+  font-size: 14px;
+  color: #999;
+  font-weight: 500;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.notification-item:first-child {
+  border-top: none;
+}
+
+.notification-item:hover {
+  background-color: #fafafa;
+}
+
+.item-label {
+  font-size: 16px;
+  color: #333;
+  flex: 1;
+}
+
+.item-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-enabled {
+  font-size: 14px;
+  color: #00DDBA;
+}
+
+.status-disabled {
+  font-size: 14px;
+  color: #ff4d4f;
+}
+
+.status-text {
+  font-size: 14px;
+  color: #999;
+}
+
+.item-arrow {
+  font-size: 20px;
+  color: #999;
+}
+
+/* 开关样式 */
+.toggle-switch {
+  width: 50px;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex-shrink: 0;
+}
+
+.toggle-switch:hover {
+  background-color: #ccc;
+}
+
+.toggle-slider {
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-slider.enabled {
+  transform: translateX(20px);
+}
+
+.toggle-switch .toggle-slider.enabled ~ * {
+  /* 备用方案 */
+}
+
+/* 当开关启用时，改变背景色 */
+.toggle-switch.enabled {
+  background-color: #00DDBA;
+}
+

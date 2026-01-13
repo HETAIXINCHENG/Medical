@@ -1,0 +1,393 @@
+/* 科室分类页面样式文件 */
+
+
+
+/* 全局样式重置 */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+    background-color: #f5f5f5;
+
+    color: #333;
+
+    padding-bottom: 70px;
+
+}
+
+
+
+/* 搜索栏区?*/
+
+.search-section {
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 10px 15px;
+
+    background-color: #fff;
+
+    gap: 10px;
+
+}
+
+
+.back-link {
+
+    display: flex;
+
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+
+.back-arrow {
+
+    width: 20px;
+
+    height: 20px;
+
+    object-fit: contain;
+
+}
+
+
+
+.search-bar {
+
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+
+    background-color: #f5f5f5;
+
+    border-radius: 20px;
+
+    padding: 8px 15px;
+
+    gap: 8px;
+
+}
+
+
+
+.search-icon {
+
+    width: 16px;
+
+    height: 16px;
+
+    object-fit: contain;
+
+}
+
+
+
+.search-bar input {
+
+    flex: 1;
+
+    border: none;
+
+    background: transparent;
+
+    outline: none;
+
+    font-size: 14px;
+
+}
+
+
+
+.search-btn {
+
+    background-color: #00DDBA;
+
+    color: white;
+
+    border: none;
+
+    padding: 8px 20px;
+
+    border-radius: 5px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* 主容?*/
+
+.container {
+
+    display: flex;
+
+    height: calc(100vh - 100px);
+
+    overflow: hidden;
+
+}
+
+
+
+/* 左侧边栏 */
+
+.sidebar {
+
+    width: 100px;
+
+    background-color: #fff;
+
+    overflow-y: auto;
+
+    border-right: 1px solid #f0f0f0;
+
+}
+
+
+
+.department-item {
+
+    padding: 15px 10px;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    color: #333;
+
+    cursor: pointer;
+
+    border-bottom: 1px solid #f5f5f5;
+
+    transition: all 0.3s;
+
+}
+
+
+
+.department-item:hover {
+
+    background-color: #f9f9f9;
+
+}
+
+
+
+.department-item.active {
+
+    background-color: #00DDBA;
+
+    color: white;
+
+}
+
+
+
+/* 右侧内容区域 */
+
+.content {
+
+    flex: 1;
+
+    overflow-y: auto;
+
+    padding: 15px;
+
+    background-color: #f5f5f5;
+
+}
+
+
+
+.classification-section {
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.section-title {
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+
+    color: #333;
+
+}
+
+
+
+.section-title.underline {
+
+    border-bottom: 3px solid #00DDBA;
+
+    padding-bottom: 5px;
+
+    display: inline-block;
+
+}
+
+
+
+/* 症状网格 */
+
+.condition-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+
+}
+
+
+
+.condition-card {
+
+    background-color: #fff;
+
+    border-radius: 8px;
+
+    padding: 15px;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
+}
+
+
+
+.condition-title {
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+    color: #333;
+
+}
+
+
+
+.condition-symptoms {
+
+    font-size: 12px;
+
+    color: #666;
+
+    line-height: 1.5;
+
+}
+
+
+/* 底部导航�?*/
+
+.bottom-nav {
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    background-color: #fff;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    padding: 10px 0;
+
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+
+    z-index: 1000;
+
+}
+
+
+.nav-item {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 5px;
+
+    font-size: 12px;
+
+    color: #999;
+
+    cursor: pointer;
+
+    flex: 1;
+
+    text-decoration: none;
+
+}
+
+
+.nav-item.active {
+
+    color: #00DDBA;
+
+}
+
+
+.nav-item:hover {
+
+    color: #00DDBA;
+
+}
+
+
+.nav-icon {
+
+    width: 24px;
+
+    height: 24px;
+
+    object-fit: contain;
+
+    display: block;
+
+    flex-shrink: 0;
+
+}
+
+
+

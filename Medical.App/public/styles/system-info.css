@@ -1,0 +1,204 @@
+/* 系统信息页面样式 */
+
+.system-info-header {
+  background-color: #00DDBA;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back-arrow {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.system-info-content {
+  padding: 20px 15px 100px 15px;
+  background-color: #fafafa;
+  min-height: calc(100vh - 60px);
+}
+
+/* 应用信息卡片 */
+.info-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.app-icon-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #00DDBA 0%, #00B894 100%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 221, 186, 0.3);
+}
+
+.icon-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.app-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.app-version {
+  font-size: 14px;
+  color: #999;
+}
+
+/* 信息区块 */
+.info-section {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00DDBA;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.section-content {
+  line-height: 1.8;
+}
+
+.info-text {
+  font-size: 15px;
+  color: #666;
+  margin: 0;
+  line-height: 1.8;
+}
+
+/* 功能列表 */
+.function-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.function-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+.function-item:hover {
+  background-color: #f0f0f0;
+  transform: translateX(5px);
+}
+
+.function-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.function-content {
+  flex: 1;
+}
+
+.function-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.function-desc {
+  font-size: 14px;
+  color: #999;
+  line-height: 1.6;
+}
+
+/* 联系方式 */
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.contact-item:last-child {
+  border-bottom: none;
+}
+
+.contact-label {
+  font-size: 15px;
+  color: #666;
+}
+
+.contact-value {
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* 版权信息 */
+.copyright-section {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 20px;
+}
+
+.copyright-text {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 5px;
+}
+

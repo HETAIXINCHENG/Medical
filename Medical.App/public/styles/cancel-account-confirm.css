@@ -1,0 +1,144 @@
+/* 确认注销账号页面样式 */
+
+.cancel-confirm-header {
+  background-color: #00DDBA;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.cancel-confirm-header .back-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.cancel-confirm-header .back-arrow {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.cancel-confirm-header .header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+  padding-right: 35px;
+}
+
+.cancel-confirm-content {
+  padding: 30px 20px;
+  background-color: #fff;
+  min-height: calc(100vh - 60px);
+}
+
+.warning-text {
+  font-size: 16px;
+  color: #ff4444;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.account-number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fafafa;
+  box-sizing: border-box;
+}
+
+.form-input.readonly {
+  color: #666;
+  cursor: not-allowed;
+}
+
+.form-input:focus:not(.readonly) {
+  outline: none;
+  border-color: #00DDBA;
+  background-color: #fff;
+}
+
+.code-group {
+  display: flex;
+  gap: 10px;
+}
+
+.code-input {
+  flex: 1;
+}
+
+.get-code-btn {
+  padding: 15px 20px;
+  background-color: #00DDBA;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.get-code-btn:disabled {
+  background-color: #e0e0e0;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.get-code-btn:not(:disabled):active {
+  background-color: #00977C;
+}
+
+.error-message {
+  color: #ff4444;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.confirm-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s;
+}
+
+.confirm-btn:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.confirm-btn:not(:disabled):active {
+  background-color: #ff5252;
+}
+

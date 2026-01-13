@@ -1,0 +1,209 @@
+/* 健康知识详情页面样式（统一青绿色） */
+
+:root {
+  --teal: #00DDBA;
+  --teal-dark: #00b89a;
+  --text-main: #333;
+  --text-sub: #666;
+  --bg-light: #f7f9fb;
+  --border: #e5e6eb;
+}
+
+.health-knowledge-detail {
+  min-height: calc(100vh - 120px);
+  background: var(--bg-light);
+}
+
+.detail-header {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--teal);
+  border-radius: 10px;
+  padding: 0 10px;
+  margin: 12px;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 221, 186, 0.2);
+}
+
+.header-btn {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header-btn img {
+  width: 18px;
+  height: 18px;
+}
+
+.header-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.favorite-btn {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 12px;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.favorite-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.favorite-btn.favorited {
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: 500;
+}
+
+.article-detail {
+  background: #fff;
+  margin: 12px;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  border: 1px solid #f1f2f6;
+}
+
+.author-section {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.author-avatar {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.author-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.author-name-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.author-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.author-title {
+  font-size: 13px;
+  color: var(--text-sub);
+  padding: 2px 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.author-department {
+  font-size: 13px;
+  color: var(--text-sub);
+  margin-bottom: 4px;
+}
+
+.article-meta {
+  font-size: 12px;
+  color: #999;
+}
+
+.article-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.article-cover {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.article-cover img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-content {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--text-main);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+}
+
+.article-stats {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-sub);
+}
+
+.stat-icon {
+  font-size: 16px;
+}
+
+.stat-text {
+  color: var(--text-main);
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-sub);
+  font-size: 14px;
+}
+
+.error-tip {
+  background-color: #fff2f0;
+  color: #ff4d4f;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid #ffccc7;
+  text-align: center;
+}

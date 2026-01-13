@@ -1,0 +1,877 @@
+/* 首页样式文件 */
+
+
+
+/* 全局样式重置 */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+    background-color: #f5f5f5;
+
+    color: #333;
+
+    padding-bottom: 70px; /* 为底部导航栏留出空间 */
+
+}
+
+
+
+/* 搜索栏区�?*/
+
+.search-section {
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 10px 15px;
+
+    background-color: #fff;
+
+    gap: 10px;
+
+}
+
+
+
+.search-bar {
+
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+
+    background-color: #f5f5f5;
+
+    border-radius: 20px;
+
+    padding: 8px 15px;
+
+    gap: 8px;
+
+}
+
+
+
+.search-icon {
+
+    width: 16px;
+
+    height: 16px;
+
+    object-fit: contain;
+
+}
+
+
+
+.search-bar input {
+
+    flex: 1;
+
+    border: none;
+
+    background: transparent;
+
+    outline: none;
+
+    font-size: 14px;
+
+}
+
+
+
+.search-btn {
+
+    background-color: #66BB6A;
+
+    color: white;
+
+    border: none;
+
+    padding: 8px 20px;
+
+    border-radius: 5px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+}
+
+
+
+.more-icon {
+
+    width: 20px;
+
+    height: 20px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* 快速访问按�?*/
+
+.quick-access {
+
+    display: flex;
+
+    gap: 10px;
+
+    padding: 15px;
+
+}
+
+
+
+.quick-btn {
+
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+
+    background-color: #fff;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    gap: 10px;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    text-decoration: none;
+
+    color: inherit;
+
+    cursor: pointer;
+
+    transition: opacity 0.3s;
+
+}
+
+
+
+.quick-btn:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+.icon-box {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+.icon-box img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+}
+
+
+
+.icon-box.teal {
+
+    background-color: #66BB6A;
+
+}
+
+
+
+.icon-box.orange {
+
+    background-color: #FF9800;
+
+}
+
+
+
+.btn-content {
+
+    flex: 1;
+
+}
+
+
+
+.btn-title {
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+.btn-subtitle {
+
+    font-size: 12px;
+
+    color: #999;
+
+}
+
+
+
+/* 分类图标 */
+
+.category-icons {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    padding: 15px;
+
+    background-color: #fff;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.category-item {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 8px;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    cursor: pointer;
+
+    transition: opacity 0.3s;
+
+}
+
+
+
+.category-item:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+.category-icon {
+
+    position: relative;
+
+}
+
+
+
+.badge {
+
+    position: absolute;
+
+    top: -5px;
+
+    left: -5px;
+
+    background-color: #FF5722;
+
+    color: white;
+
+    font-size: 10px;
+
+    padding: 2px 5px;
+
+    border-radius: 10px;
+
+    z-index: 1;
+
+}
+
+
+
+.icon-circle {`n    width: 50px;`n    height: 50px;`n    border-radius: 50%;`n    background-color: #f0f0f0;`n    display: flex;`n    align-items: center;`n    justify-content: center;`n}
+
+
+
+.icon-circle img {
+
+    width: 70%;
+
+    height: 70%;
+
+    object-fit: contain;
+
+}
+
+
+
+.category-label {
+
+    font-size: 12px;
+
+    color: #666;
+
+}
+
+
+
+/* 通用区块样式 */
+
+.section {
+
+    background-color: #fff;
+
+    padding: 15px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.section-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.section-title {
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+}
+
+
+
+.view-all {
+
+    font-size: 14px;
+
+    color: #999;
+
+    text-decoration: none;
+
+}
+
+
+
+/* 热门活动 */
+
+.activity-grid {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+
+
+.activity-card.large {
+
+    flex: 1;
+
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    color: white;
+
+    position: relative;
+
+    overflow: hidden;
+
+    text-decoration: none;
+
+    display: block;
+
+    transition: opacity 0.3s;
+
+}
+
+
+
+.activity-card.large:hover {
+
+    opacity: 0.9;
+
+}
+
+
+
+.activity-card.small {
+
+    flex: 1;
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    transition: opacity 0.3s;
+
+}
+
+
+
+.activity-card.small:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+.activity-card.small.blue {
+
+    background-color: #D6FFF6;
+
+}
+
+
+
+.activity-card.small.yellow {
+
+    background-color: #FFF9C4;
+
+}
+
+
+
+.activity-cards-small {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    flex: 1;
+
+}
+
+
+
+.card-image {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.doctor-avatar {
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+
+    background-color: rgba(255,255,255,0.3);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+.activity-image {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+}
+
+
+
+.go-btn-img {
+
+    width: 60px;
+
+    height: 30px;
+
+    object-fit: contain;
+
+    cursor: pointer;
+
+}
+
+
+
+.card-content {
+
+    flex: 1;
+
+}
+
+
+
+.card-title {
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+}
+
+
+
+.tag.discount {
+
+    background-color: #FF5722;
+
+    color: white;
+
+    font-size: 10px;
+
+    padding: 2px 6px;
+
+    border-radius: 10px;
+
+}
+
+
+
+.card-subtitle {
+
+    font-size: 12px;
+
+    opacity: 0.9;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.go-btn {
+
+    background-color: rgba(255,255,255,0.3);
+
+    border: none;
+
+    color: white;
+
+    padding: 5px 15px;
+
+    border-radius: 15px;
+
+    font-size: 12px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* 医疗服务 */
+
+.service-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 15px;
+
+}
+
+
+
+.service-item {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 20px;
+
+    background-color: #f9f9f9;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    cursor: pointer;
+
+    transition: opacity 0.3s;
+
+}
+
+
+
+.service-item:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+.service-icon {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+.service-icon img {
+
+    width: 70%;
+
+    height: 70%;
+
+    object-fit: contain;
+
+}
+
+
+
+.service-title {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+
+.service-subtitle {
+
+    font-size: 12px;
+
+    color: #999;
+
+    text-align: center;
+
+}
+
+
+
+/* 底部导航�?*/
+
+.bottom-nav {
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    background-color: #fff;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    padding: 10px 0;
+
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+
+    z-index: 1000;
+
+}
+
+
+
+.nav-item {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 5px;
+
+    font-size: 12px;
+
+    color: #999;
+
+    cursor: pointer;
+
+    flex: 1;
+
+    text-decoration: none;
+
+}
+
+
+
+.nav-item.active {
+
+    color: #66BB6A;
+
+}
+
+
+
+.nav-item:hover {
+
+    color: #66BB6A;
+
+}
+
+
+
+.nav-icon {
+
+    width: 24px;
+
+    height: 24px;
+
+    object-fit: contain;
+
+    display: block;
+
+    flex-shrink: 0;
+
+}
+
+
+
+.nav-center {
+
+    position: relative;
+
+    flex: 0 0 auto;
+
+}
+
+
+
+.nav-item.nav-center {
+
+    flex: 0 0 auto;
+
+}
+
+
+
+.nav-icon.plus {
+
+    width: 50px;
+
+    height: 50px;
+
+    object-fit: contain;
+
+    margin-top: -20px;
+
+    display: block;
+
+    background-color: transparent;
+
+}
+
+
+
+

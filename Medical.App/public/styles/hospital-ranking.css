@@ -1,0 +1,255 @@
+.hospital-ranking-page {
+  min-height: 100vh;
+  background-color: #fafafa;
+  padding-bottom: 80px;
+}
+
+/* 头部 */
+.ranking-header {
+  background: linear-gradient(135deg, #00DDBA 0%, #00c3a6 100%);
+  padding: 60px 20px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.ranking-header::before,
+.ranking-header::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 10 L60 40 L90 40 L70 60 L80 90 L50 70 L20 90 L30 60 L10 40 L40 40 Z" fill="rgba(255,255,255,0.1)"/></svg>') no-repeat;
+  background-size: contain;
+  opacity: 0.3;
+}
+
+.ranking-header::before {
+  top: 20px;
+  left: 20px;
+}
+
+.ranking-header::after {
+  top: 20px;
+  right: 20px;
+}
+
+.header-title {
+  position: relative;
+  z-index: 1;
+}
+
+.title-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.header-subtitle {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
+}
+
+/* 标签页 */
+.ranking-tabs {
+  display: flex;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0 20px;
+}
+
+.tab-item {
+  flex: 1;
+  padding: 16px 0;
+  font-size: 16px;
+  color: #666666;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tab-item.active {
+  color: #00DDBA;
+  border-bottom-color: #00DDBA;
+  font-weight: 600;
+}
+
+/* 说明文字 */
+.ranking-intro {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.intro-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #00DDBA;
+  margin-bottom: 10px;
+}
+
+.intro-content {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.6;
+}
+
+/* 医院列表 */
+.hospital-list {
+  padding: 20px;
+}
+
+.hospital-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hospital-card:active {
+  transform: scale(0.98);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+/* TOP 徽章 */
+.top-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #ffc107;
+  color: #333333;
+  margin-right: 12px;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+/* 医院信息 */
+.hospital-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.hospital-name-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.hospital-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  margin: 0;
+  flex: 1;
+}
+
+.hospital-distance {
+  font-size: 12px;
+  color: #999999;
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+
+/* 标签 */
+.hospital-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tag {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+}
+
+.tag-public {
+  background-color: #4a90e2;
+}
+
+.tag-level {
+  background-color: #ff9800;
+}
+
+.tag-type {
+  background-color: #9c27b0;
+}
+
+/* 统计信息 */
+.hospital-stats {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #666;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.stat-number {
+  color: #ff4757;
+  font-weight: 600;
+}
+
+/* 重点专科 */
+.hospital-specialties {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* 电话 */
+.hospital-phone {
+  font-size: 12px;
+  color: #666666;
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+/* 地址 */
+.hospital-address {
+  font-size: 12px;
+  color: #999999;
+  line-height: 1.5;
+}
+
+/* 加载和错误状态 */
+.loading-container,
+.error-container,
+.empty-container {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.loading-text,
+.error-text,
+.empty-text {
+  font-size: 14px;
+  color: #999999;
+}
+
+.error-text {
+  color: #ff4757;
+}
+

@@ -1,0 +1,183 @@
+/* 登录页面样式 */
+
+.login-container {
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.help-link {
+    font-size: 14px;
+    color: #00DDBA;
+    text-decoration: none;
+}
+
+.help-link:hover {
+    text-decoration: underline;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.app-logo {
+    width: 80px;
+    height: 80px;
+    background-color: #00DDBA;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.logo-icon {
+    font-size: 50px;
+}
+
+.app-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00DDBA;
+    margin: 0;
+}
+
+.login-form {
+    flex: 1;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #00DDBA;
+    background-color: #fff;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.eye-icon {
+    font-size: 20px;
+}
+
+.form-options {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.forgot-password {
+    font-size: 14px;
+    color: #00DDBA;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    background-color: #fff2f0;
+    color: #ff4d4f;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ffccc7;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #00DDBA;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover:not(:disabled) {
+    background-color: #00c9a8;
+}
+
+.login-btn:active:not(:disabled) {
+    background-color: #00b89a;
+}
+
+.login-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.agreement-section {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.agreement-checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+}
+
+.agreement-checkbox input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    cursor: pointer;
+    accent-color: #00DDBA;
+}
+
+.checkbox-label {
+    line-height: 1.6;
+}
+
+.agreement-link {
+    color: #00DDBA;
+    text-decoration: none;
+}
+
+.agreement-link:hover {
+    text-decoration: underline;
+}
+
+

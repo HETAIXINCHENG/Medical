@@ -1,0 +1,125 @@
+/* 商家服务列表页面样式（统一青绿色） */
+
+:root {
+  --teal: #00DDBA;
+  --teal-dark: #00b89a;
+  --text-main: #333;
+  --text-sub: #666;
+  --bg-light: #f7f9fb;
+  --border: #e5e6eb;
+}
+
+.merchant-services-page {
+  min-height: 100vh;
+  background: var(--bg-light);
+}
+
+.merchant-header {
+  background-color: var(--teal);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 221, 186, 0.2);
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back-icon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.merchant-list {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.merchant-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.merchant-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.merchant-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.merchant-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-main);
+}
+
+.merchant-time {
+  font-size: 13px;
+  color: var(--text-sub);
+}
+
+.merchant-shop-name {
+  font-size: 15px;
+  color: var(--text-main);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.merchant-patient-message {
+  font-size: 14px;
+  color: var(--text-sub);
+  margin-bottom: 12px;
+}
+
+.merchant-chat-btn {
+  width: 100%;
+  padding: 10px 0;
+  background-color: var(--teal);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.merchant-chat-btn:hover {
+  background-color: var(--teal-dark);
+}
+
+.merchant-chat-btn:active {
+  transform: scale(0.98);
+}
+

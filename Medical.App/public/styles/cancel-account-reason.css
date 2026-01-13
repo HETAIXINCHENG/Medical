@@ -1,0 +1,122 @@
+/* 注销账号原因选择页面样式 */
+
+.cancel-reason-header {
+  background-color: #00DDBA;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.cancel-reason-header .back-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.cancel-reason-header .back-arrow {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.cancel-reason-header .header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+  padding-right: 35px;
+}
+
+.cancel-reason-content {
+  padding: 30px 20px;
+  background-color: #fff;
+  min-height: calc(100vh - 60px);
+}
+
+.intro-text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.reason-list {
+  margin-bottom: 40px;
+}
+
+.reason-item {
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reason-item:last-child {
+  border-bottom: none;
+}
+
+.reason-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.reason-radio {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.reason-text {
+  font-size: 16px;
+  color: #333;
+  flex: 1;
+}
+
+.more-link {
+  font-size: 14px;
+  color: #00DDBA;
+  margin-left: 32px;
+  cursor: pointer;
+}
+
+.more-link:active {
+  opacity: 0.7;
+}
+
+.next-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next-btn:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.next-btn:not(:disabled) {
+  background-color: #00DDBA;
+}
+
+.next-btn:not(:disabled):active {
+  background-color: #00977C;
+}
+

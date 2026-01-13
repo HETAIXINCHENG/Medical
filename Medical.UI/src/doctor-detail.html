@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医生详情 - 医疗咨询系统</title>
+    <link rel="stylesheet" href="../css/doctor-detail.css">
+    <link rel="stylesheet" href="../css/bottom-nav.css">
+</head>
+<body>
+    <!-- 状态栏 -->
+    <div class="status-bar">
+        <span class="time">8:59</span>
+    </div>
+
+    <!-- 导航栏 -->
+    <div class="navbar">
+        <a href="doctors.html" class="back-arrow-link">
+            <img src="../Img/08-专家主页详情/返回.png" alt="返回" class="back-arrow">
+        </a>
+        <img src="../Img/08-专家主页详情/分享.png" alt="分享" class="refresh-icon">
+    </div>
+
+    <!-- 医生资料 -->
+    <div class="doctor-profile">
+        <div class="doctor-avatar">
+            <img src="../Img/08-专家主页详情/1.png" alt="李医生" class="avatar-img">
+        </div>
+        <div class="doctor-info">
+            <div class="doctor-name">李医生</div>
+            <div class="doctor-title">主治医师: 儿科专家</div>
+            <div class="doctor-specialty">擅长:儿童保健、呼吸、心血管、血液、肾脏</div>
+        </div>
+    </div>
+
+    <!-- 咨询选项 -->
+    <div class="consultation-options">
+        <div class="consult-card">
+            <div class="consult-icon green">
+                <img src="../Img/08-专家主页详情/图文.png" alt="图文咨询">
+            </div>
+            <div class="consult-type">图文咨询</div>
+            <div class="consult-price">12元/次</div>
+        </div>
+        <div class="consult-card">
+            <div class="consult-icon orange">
+                <img src="../Img/08-专家主页详情/电话.png" alt="电话咨询">
+            </div>
+            <div class="consult-type">电话咨询</div>
+            <div class="consult-price">68元/次</div>
+        </div>
+    </div>
+
+    <!-- 排版情况 -->
+    <div class="schedule-section">
+        <div class="section-header">
+            <h2 class="section-title">排版情况</h2>
+            <a href="doctors.html" class="view-all">查看全部 ></a>
+        </div>
+        <div class="schedule-grid">
+            <div class="schedule-header">
+                <div class="time-label"></div>
+                <div class="day-label">周一</div>
+                <div class="day-label">周二</div>
+                <div class="day-label">周三</div>
+                <div class="day-label">周四</div>
+                <div class="day-label">周五</div>
+            </div>
+            <div class="schedule-row">
+                <div class="time-label">上午</div>
+                <div class="schedule-cell booked">约满</div>
+                <div class="schedule-cell booked">约满</div>
+                <div class="schedule-cell available">可约</div>
+                <div class="schedule-cell available">可约</div>
+                <div class="schedule-cell booked">约满</div>
+            </div>
+            <div class="schedule-row">
+                <div class="time-label">下午</div>
+                <div class="schedule-cell available">可约</div>
+                <div class="schedule-cell available">可约</div>
+                <div class="schedule-cell booked">约满</div>
+                <div class="schedule-cell booked">约满</div>
+                <div class="schedule-cell available">可约</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 专家评价 -->
+    <div class="reviews-section">
+        <div class="review-tabs">
+            <div class="tab-item active">专家评价</div>
+            <div class="tab-item">专家发布</div>
+            <div class="tab-item">专家回答</div>
+        </div>
+        <div class="review-list">
+            <div class="review-card">
+                <div class="reviewer-avatar">
+                    <img src="../Img/08-专家主页详情/资源-1.png" alt="灵感设计" class="avatar-img small">
+                </div>
+                <div class="review-content">
+                    <div class="reviewer-name">灵感设计</div>
+                    <div class="review-text">感谢王医生认真负责,并且有十分耐心的给我讲解如何预防此类疾病。</div>
+                    <div class="review-footer">
+                        <img src="../Img/08-专家主页详情/评分.png" alt="评分" class="rating-icon">
+                        <span class="rating">5星好评</span>
+                        <span class="review-time">4分钟前</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="reviewer-avatar">
+                    <img src="../Img/08-专家主页详情/2.png" alt="哈士奇" class="avatar-img small">
+                </div>
+                <div class="review-content">
+                    <div class="reviewer-name">哈士奇</div>
+                    <div class="review-text">感谢王医生认真负责,并且有十分耐心的给我讲解如何预防此类疾病。</div>
+                    <div class="review-footer">
+                        <img src="../Img/08-专家主页详情/评分.png" alt="评分" class="rating-icon">
+                        <span class="rating">5星好评</span>
+                        <span class="review-time">4分钟前</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部咨询按钮 -->
+    <div class="bottom-consult-btn">
+        <a href="consultation.html" class="consult-now-btn">立即咨询</a>
+    </div>
+
+    <!-- 底部导航栏 -->
+    <div class="bottom-nav-container" data-active="discover"></div>
+    <script src="../js/bottom-nav.js"></script>
+</body>
+</html>
+

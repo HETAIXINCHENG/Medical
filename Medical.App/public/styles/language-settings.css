@@ -1,0 +1,115 @@
+/* 语言设置页面样式 */
+
+.language-header {
+  background-color: #00DDBA;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back-arrow {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.save-btn {
+  padding: 6px 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  cursor: not-allowed;
+  transition: all 0.3s;
+}
+
+.save-btn.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+.save-btn.active:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.language-content {
+  padding: 0;
+  background-color: #fff;
+  min-height: calc(100vh - 60px);
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.language-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.language-item:last-child {
+  border-bottom: none;
+}
+
+.language-item:hover {
+  background-color: #fafafa;
+}
+
+.language-item.selected {
+  background-color: #f0fdfb;
+}
+
+.language-name {
+  font-size: 16px;
+  color: #333;
+}
+
+.language-item.selected .language-name {
+  color: #00DDBA;
+  font-weight: 500;
+}
+
+.check-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00DDBA;
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+}
+

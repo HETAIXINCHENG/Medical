@@ -1,0 +1,161 @@
+.consultation-messages-page {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 64px);
+  padding: 16px;
+  gap: 16px;
+}
+
+.consultation-header {
+  flex-shrink: 0;
+}
+
+.consultation-info {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.consultation-info > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.messages-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+.messages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.message-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.message-item.doctor-message {
+  flex-direction: row;
+}
+
+.message-item.patient-message {
+  flex-direction: row-reverse;
+}
+
+.message-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.message-content {
+  flex: 1;
+  max-width: 70%;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.sender-name {
+  font-weight: 500;
+  color: #666;
+}
+
+.message-time {
+  color: #999;
+  font-size: 11px;
+}
+
+.message-body {
+  background-color: #f5f5f5;
+  padding: 12px;
+  border-radius: 8px;
+  word-wrap: break-word;
+}
+
+.doctor-message .message-body {
+  background-color: #e6f7ff;
+}
+
+.patient-message .message-body {
+  background-color: #f6ffed;
+}
+
+.text-message {
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.image-message img {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.image-caption,
+.video-caption,
+.audio-caption,
+.file-caption {
+  margin-top: 8px;
+  color: #666;
+  font-size: 12px;
+}
+
+.video-message video {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.audio-message {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.file-message {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input-container {
+  flex-shrink: 0;
+}
+
+.message-type-selector {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.attachment-preview {
+  margin-bottom: 8px;
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.input-row .ant-input,
+.input-row .ant-input {
+  flex: 1;
+}
+
